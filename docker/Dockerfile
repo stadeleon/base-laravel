@@ -35,4 +35,4 @@ RUN rm -rf /root/.composer \
 && echo 'alias ll="ls -alF --color=auto"' >> ~/.bashrc
 
 USER ${PUID}
-RUN composer global require hirak/prestissimo
+RUN composer global require hirak/prestissimo laravel/installer
